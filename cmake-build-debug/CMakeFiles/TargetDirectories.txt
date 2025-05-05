@@ -1,0 +1,3 @@
+C:/Users/cata/CLionProjects/lab3_marti/cmake-build-debug/CMakeFiles/lab3_marti.dir
+C:/Users/cata/CLionProjects/lab3_marti/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/cata/CLionProjects/lab3_marti/cmake-build-debug/CMakeFiles/rebuild_cache.dir

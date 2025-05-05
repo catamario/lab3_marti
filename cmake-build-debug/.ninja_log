@@ -1,0 +1,18 @@
+# ninja log v6
+5	362	7681727126683967	build.ninja	325967117806562d
+493	725	7681719488555635	lab2_marti.exe	5bbaa8cf85f97f40
+7	71	7681727366069504	CMakeFiles/lab3_marti.dir/colectie/Colectie.cpp.obj	1f2f63c2bdd59b35
+12	491	7681727366119373	CMakeFiles/lab3_marti.dir/tranzactie/Tranzactie.cpp.obj	655dd9b7b2d475e9
+2	499	7681727366019653	CMakeFiles/lab3_marti.dir/main.cpp.obj	4cee9c17547a7ab1
+16	518	7681727366159274	CMakeFiles/lab3_marti.dir/atm/ATM.cpp.obj	af81aa7b9d8234e2
+518	738	7681727371175845	lab3_marti.exe	423faa46d4213cf0
+15	617	7681738973776535	CMakeFiles/lab3_marti.dir/tranzactie/Tranzactie.cpp.obj	655dd9b7b2d475e9
+10	618	7681738973736850	CMakeFiles/lab3_marti.dir/colectie/Colectie.cpp.obj	1f2f63c2bdd59b35
+5	626	7681739085635504	CMakeFiles/lab3_marti.dir/main.cpp.obj	4cee9c17547a7ab1
+5	631	7681739939068997	CMakeFiles/lab3_marti.dir/main.cpp.obj	4cee9c17547a7ab1
+13	764	7681739939148609	CMakeFiles/lab3_marti.dir/atm/ATM.cpp.obj	af81aa7b9d8234e2
+4	564	7681740463287750	CMakeFiles/lab3_marti.dir/tranzactie/Tranzactie.cpp.obj	655dd9b7b2d475e9
+9	479	7681740891412499	CMakeFiles/lab3_marti.dir/colectie/Colectie.cpp.obj	1f2f63c2bdd59b35
+5	591	7681740891369919	CMakeFiles/lab3_marti.dir/main.cpp.obj	4cee9c17547a7ab1
+13	714	7681740891452148	CMakeFiles/lab3_marti.dir/atm/ATM.cpp.obj	af81aa7b9d8234e2
+714	838	7681740898457902	lab3_marti.exe	423faa46d4213cf0
