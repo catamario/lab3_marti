@@ -16,22 +16,18 @@ const std::map<int, int>& Tranzactie::getBancnote() const {
     return bancnote;
 }
 
+int Tranzactie::getNrBancnote() const {
+    int total = 0;
+    for (const auto& p : bancnote) {
+        total += p.second;
+    }
+    return total;
+}
+
+
 const std::string& Tranzactie::getData() const {
     return data;
 }
-
-// Implementarea operatorului < pentru compararea tranzacțiilor
-bool Tranzactie::operator<(const Tranzactie& other) const {
-    // Compară după data tranzacției, apoi după suma retrasă și numărul de bancnote
-    if (data != other.data) {
-        return data < other.data;
-    }
-    if (suma != other.suma) {
-        return suma < other.suma;
-    }
-    return bancnote.size() < other.bancnote.size();
-}
-
 
 void Tranzactie::afiseaza() const {
     std::cout << "Tranzactie ID: " << id << ", Suma: " << suma << ", Data: " << data << "\nBancnote: ";

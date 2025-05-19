@@ -55,12 +55,6 @@ build CMakeFiles/lab3_marti.dir/main.cpp.obj: CXX_COMPILER__lab3_marti_unscanned
   OBJECT_DIR = CMakeFiles\lab3_marti.dir
   OBJECT_FILE_DIR = CMakeFiles\lab3_marti.dir
 
-build CMakeFiles/lab3_marti.dir/colectie/Colectie.cpp.obj: CXX_COMPILER__lab3_marti_unscanned_Debug C$:/Users/cata/CLionProjects/lab3_marti/colectie/Colectie.cpp || cmake_object_order_depends_target_lab3_marti
-  DEP_FILE = CMakeFiles\lab3_marti.dir\colectie\Colectie.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\lab3_marti.dir
-  OBJECT_FILE_DIR = CMakeFiles\lab3_marti.dir\colectie
-
 build CMakeFiles/lab3_marti.dir/tranzactie/Tranzactie.cpp.obj: CXX_COMPILER__lab3_marti_unscanned_Debug C$:/Users/cata/CLionProjects/lab3_marti/tranzactie/Tranzactie.cpp || cmake_object_order_depends_target_lab3_marti
   DEP_FILE = CMakeFiles\lab3_marti.dir\tranzactie\Tranzactie.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
@@ -81,7 +75,7 @@ build CMakeFiles/lab3_marti.dir/atm/ATM.cpp.obj: CXX_COMPILER__lab3_marti_unscan
 #############################################
 # Link the executable lab3_marti.exe
 
-build lab3_marti.exe: CXX_EXECUTABLE_LINKER__lab3_marti_Debug CMakeFiles/lab3_marti.dir/main.cpp.obj CMakeFiles/lab3_marti.dir/colectie/Colectie.cpp.obj CMakeFiles/lab3_marti.dir/tranzactie/Tranzactie.cpp.obj CMakeFiles/lab3_marti.dir/atm/ATM.cpp.obj
+build lab3_marti.exe: CXX_EXECUTABLE_LINKER__lab3_marti_Debug CMakeFiles/lab3_marti.dir/main.cpp.obj CMakeFiles/lab3_marti.dir/tranzactie/Tranzactie.cpp.obj CMakeFiles/lab3_marti.dir/atm/ATM.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\lab3_marti.dir

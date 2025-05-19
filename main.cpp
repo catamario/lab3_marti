@@ -36,9 +36,14 @@ int main() {
             atm.retrageBani(suma, data);  // retrage bani
         } else if (optiune == 3) {
             atm.afiseazaTranzactii();  // afiseaza tranzactiile
-        } else if (optiune == 4) {
-            atm.sorteazaTranzactii();  // sorteaza tranzactiile (se va face automat daca folosesti set-ul)
-            std::cout << "Tranzactiile sunt deja ordonate dupa data.\n";
+        }         else if (optiune == 4) {
+            int criteriu;
+            std::cout << "Alege criteriul de sortare:\n";
+            std::cout << "1. Data\n";
+            std::cout << "2. Suma\n";
+            std::cout << "3. Numar de bancnote\n";
+            std::cin >> criteriu;
+            atm.sorteazaTranzactii(criteriu);
         } else if (optiune == 5) {
             std::cout << "La revedere!\n";
             break;  // iese din program

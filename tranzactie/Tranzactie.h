@@ -20,7 +20,8 @@ public:
     const std::string& getData() const;
 
 
-    bool operator<(const Tranzactie& other) const;
+    int getNrBancnote() const;
+
     void afiseaza() const;
 };
 
